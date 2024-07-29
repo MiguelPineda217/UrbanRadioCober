@@ -23,7 +23,7 @@
 
 import os
 
-from PyQt4 import QtGui, uic
+from PyQt5 import QtGui, uic
 from urban_radiocober_dialog_base import Ui_Dialog
 
 class UrbanRadioCoberDialog(QtGui.QDialog):
