@@ -14,7 +14,7 @@ __copyright__ = 'Copyright 2015,  Mario Salazar, Leonardo Cifuentes, Jhon Castan
 
 import unittest
 
-from PyQt4.QtGui import QIcon
+from PyQt5.QtGui import QIcon
 
 
 
