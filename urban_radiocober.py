@@ -20,8 +20,8 @@
  *                                                                         *
  ***************************************************************************/
 """
-from PyQt4.QtCore import QSettings, QTranslator, qVersion, QCoreApplication
-from PyQt4.QtGui import QAction, QIcon, QMessageBox, QProgressBar
+from PyQt5.QtCore import QSettings, QTranslator, qVersion, QCoreApplication
+from PyQt5.QtGui import QAction, QIcon, QMessageBox, QProgressBar
 from qgis.core import *
 # Initialize Qt resources from file resources.py
 import resources_rc
@@ -29,7 +29,7 @@ import resources
 
 # Import the code for the dialog
 from urban_radiocober_dialog import UrbanRadioCoberDialog
-from PyQt4.QtCore import *
+from PyQt5.QtCore import *
 import os.path
 import time
 import math
