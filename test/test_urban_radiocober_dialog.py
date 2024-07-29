@@ -14,7 +14,7 @@ __copyright__ = 'Copyright 2015,  Mario Salazar, Leonardo Cifuentes, Jhon Castan
 
 import unittest
 
-from PyQt4.QtGui import QDialogButtonBox, QDialog
+from PyQt5.QtGui import QDialogButtonBox, QDialog
 
 from urban_radiocober_dialog import UrbanRadioCoberDialog
 
